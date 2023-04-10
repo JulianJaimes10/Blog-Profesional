@@ -1,0 +1,125 @@
+.description {
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #141E30;
+}
+
+.container-description h1 {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.container-description {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.description-text {
+    color: white;
+    font-size: 30px;
+    text-align: justify;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.container-photo {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 100px;
+    margin-left: 100px;
+    min-height: 700px;
+}
+
+#img-julian {
+    width: 500px;
+    border-radius: 250px;
+    border: 5px solid gainsboro;
+    background-color: #fff;
+}
+
+.knowdleges {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+}
+
+.knowdleges p {
+    padding-bottom: 15px;
+}
+
+#img-development {
+    width: 100%;
+    padding: 50px;
+}
+
+.hobbies {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.images-hobbies {
+    width: 25%;
+    border: 3px solid #141E30;
+    display: flex;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.images-hobbies img {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    padding-top: 25px;
+    padding-bottom: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 960px) {
+    
+    .container-description{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    
+    .container-description{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-photo {
+        display: none;
+    }
+
+    .container-description {
+        width: 100%;
+    }
+
+}

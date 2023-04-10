@@ -1,0 +1,13 @@
+.social-network-icons a img{
+    width: 60px;
+    margin: 0 15px 40px 15px;
+}
+
+.social-network-icons {
+    text-align: center;
+}
+
+.container-foot {
+    font-size: 15px;
+    background-color: rgba(221, 219, 219, 0.673);
+}

@@ -1,0 +1,27 @@
+.experiencia-laboral {
+    margin: 25px 25px 25px 25px;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    padding-bottom: 25px;
+}
+
+.tabla-experiencia th {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+    vertical-align: middle;
+}
+
+.text-center {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.certificado iframe {
+    height: 200px;
+}
